@@ -16,4 +16,4 @@ else
   echo "${curmem_label} | color=red"
 fi
 echo "----"
-echo $host
+echo "$host | terminal=true bash=ssh param1=$host"
